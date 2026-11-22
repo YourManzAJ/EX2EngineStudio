@@ -169,7 +169,7 @@ class EngineAudioEngine(private val simulator: EngineSimulator) {
      * Currently everything goes to the default media stream (cabin).
      * Outside / Both modes are accepted but do not yet change the physical output.
      */
-    fun setOutputMode(mode: OutputMode) {
+    fun applyOutputMode(mode: OutputMode) {
         outputMode = mode
         Log.i(TAG, "Output mode set to $mode (exterior routing not yet implemented)")
     }

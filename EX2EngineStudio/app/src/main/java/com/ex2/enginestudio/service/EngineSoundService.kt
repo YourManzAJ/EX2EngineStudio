@@ -80,7 +80,7 @@ class EngineSoundService : Service() {
     }
 
     fun setOutputMode(mode: EngineAudioEngine.OutputMode) {
-        audioEngine.setOutputMode(mode)
+        audioEngine.applyOutputMode(mode)
     }
 
     fun setVolume(volume01: Float) {

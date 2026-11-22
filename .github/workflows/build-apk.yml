@@ -1,4 +1,3 @@
-
 name: Build EX2 Engine Studio APK
 
 on: [push, workflow_dispatch]
@@ -29,10 +28,12 @@ jobs:
         run: sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
       - name: Build APK
+        working-directory: EX2EngineStudio
         run: gradle --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: EX2EngineStudio-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          path: EX2EngineStudio/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error

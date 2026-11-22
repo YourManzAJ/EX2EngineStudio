@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EX2 Engine Studio</string>
+    <string name="inside">INSIDE</string>
+    <string name="outside">OUTSIDE</string>
+    <string name="both">BOTH</string>
+    <string name="engine_select">Engine Profile</string>
+    <string name="rpm">RPM</string>
+    <string name="speed">Speed</string>
+    <string name="gear">Gear</string>
+    <string name="throttle">Throttle</string>
+    <string name="intensity">Intensity</string>
+    <string name="status_vehicle">Vehicle Data</string>
+    <string name="status_audio">Audio Output</string>
+    <string name="outside_experimental">OUTSIDE – Experimental / Not fully verified</string>
+    <string name="start_engine">START</string>
+    <string name="stop_engine">STOP</string>
+</resources>

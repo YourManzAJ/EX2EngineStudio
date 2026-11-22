@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#0A0A0A</color>
+    <color name="card_bg">#161616</color>
+    <color name="accent_orange">#FF6B00</color>
+    <color name="accent_cyan">#00D4FF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="gauge_red">#FF2A2A</color>
+    <color name="gauge_yellow">#FFCC00</color>
+    <color name="success">#00C853</color>
+    <color name="warning">#FFAB00</color>
+    <color name="error">#FF1744</color>
+</resources>
